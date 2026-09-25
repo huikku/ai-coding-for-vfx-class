@@ -1,0 +1,109 @@
+# ============================================================
+# VFX starter .gitignore
+# Git is for code and small text files. Media stays on Drive.
+# ============================================================
+
+# --- Secrets (never commit these) ---------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials*.json
+secrets*.json
+*token*.json
+
+# --- Video --------------------------------------------------
+*.mov
+*.mp4
+*.m4v
+*.mxf
+*.avi
+*.mkv
+*.webm
+*.r3d
+*.braw
+*.ari
+*.crm
+
+# --- Image sequences & high-bit images ----------------------
+*.exr
+*.dpx
+*.cin
+*.tif
+*.tiff
+*.hdr
+*.psd
+*.psb
+
+# --- Audio --------------------------------------------------
+*.wav
+*.aif
+*.aiff
+
+# --- Media folders (catches jpg/png renders and plates) -----
+# Small UI images for apps are fine elsewhere in the repo.
+renders/
+render/
+plates/
+footage/
+output/
+outputs/
+_converted/
+_trash/
+proxies/
+comps/
+dailies/
+
+# --- Caches & sims ------------------------------------------
+*.abc
+*.vdb
+*.bgeo
+*.bgeo.sc
+*.sim
+*.simdata
+*.bphys
+cache/
+caches/
+
+# --- DCC scene files ----------------------------------------
+# Usually large and binary. Remove a line if you want to version
+# small scene files (Git LFS is the better way to do that).
+*.blend
+*.blend1
+*.ma
+*.mb
+*.hip
+*.hipnc
+*.hiplc
+*.c4d
+*.max
+*.aep
+*.prproj
+*.drp
+*.nk~
+*.autosave
+
+# --- Python -------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# --- Node / web / Tauri -------------------------------------
+node_modules/
+.vite/
+.next/
+src-tauri/target/
+
+# --- OS & editor junk ---------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
