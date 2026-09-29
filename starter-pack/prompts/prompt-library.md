@@ -284,7 +284,8 @@ API keys. Explain the folder structure in 5 lines.
 
 **Desktop app starter:**
 ```
-Create a Tauri desktop app with React, Vite, Tailwind and shadcn/ui that
+Create a Tauri desktop app (Rust core, web-style UI) with React, Vite,
+Tailwind and shadcn/ui that
 lists the videos in a folder I pick and shows their specs. Bundle ffmpeg
 with it.
 ```

@@ -90,7 +90,7 @@ whenever they work in this folder. It tells the assistant how we work.
 | Quick utility (rename, convert, organize) | Python + uv + ffmpeg |
 | Utility with a simple UI | Python + Gradio (keep `share=False`: a share link is public) |
 | Tool inside a DCC | That DCC's scripting language (see the `dcc-scripts` skill), PySide6 for panels |
-| Desktop app for your team | Tauri + React/Vite/Tailwind/shadcn, or PySide6 + PyInstaller |
+| Desktop app for your team | Rust + Tauri with React/Vite/Tailwind/shadcn, or PySide6 + PyInstaller |
 | Web app | React + Vite + Tailwind + shadcn/ui + Lucide icons + Google Fonts |
 | …that uses an API key | Keys only on a backend: a serverless function or Railway. Never in frontend code. |
 | …that needs logins or a database | Supabase (publishable key in the frontend only with Row Level Security; secret key backend only) |

@@ -163,7 +163,7 @@ replaced. Go public only after a deliberate cleanup.
 | Quick utility: rename, convert, organize | Python + uv + ffmpeg |
 | Utility with a simple UI | Python + Gradio |
 | Tool inside a DCC | Python + PySide6, or an MCP |
-| Desktop app for your team | Tauri + the web UI stack, or PySide6 + PyInstaller |
+| Desktop app for your team | Rust + Tauri with the web UI stack, or PySide6 + PyInstaller |
 | Web app | React · Vite · Tailwind · shadcn/ui (+ Lucide icons, Google Fonts), hosted on GitHub Pages, Netlify or Vercel |
 | …that uses an API key | + a serverless function or a Railway backend |
 | …that needs logins or a database | + Supabase |
@@ -206,7 +206,7 @@ every time:
   DCC scripts.
 - `.gitignore`: keeps media, caches and keys out of GitHub.
 - **Setup prompts:** paste one in and it installs ffmpeg, GitHub, MCP for
-  Blender or Tauri for you.
+  Blender or Rust + Tauri for you.
 
 ## 12. Your first week
 

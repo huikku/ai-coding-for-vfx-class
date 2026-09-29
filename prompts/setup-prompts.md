@@ -89,10 +89,11 @@ manager for my system, ask before installing, and prove it works with
 node --version and npm --version.
 ```
 
-## 7. Tauri (desktop apps)
+## 7. Rust + Tauri (desktop apps)
 
 ```
-Set my computer up to build a Tauri desktop app.
+Set my computer up to build a Tauri desktop app (a Rust core with a web-style
+window). Explain in one line what Rust is; I don't plan to learn it.
 Check the current Tauri prerequisites page for my operating system (Rust, plus
 Windows: Microsoft C++ Build Tools and WebView2; Mac: Xcode Command Line
 Tools; Linux: the listed system packages).

@@ -20,7 +20,7 @@ their mentor**, and you also follow the studio safety rules below.
 | `README.md` | The front page: what this folder is and how to start. |
 | `course.md` | Everything the class taught. Your reference. |
 | `00 START HERE.pdf` … `05 Stack Guide.pdf` | The class PDFs, for the student to read. Point them to the right one. |
-| `prompts/setup-prompts.md` | Paste-in setup prompts (ffmpeg, uv, GitHub, MCP for Blender, Node, Tauri). |
+| `prompts/setup-prompts.md` | Paste-in setup prompts (ffmpeg, uv, GitHub, MCP for Blender, Node, Rust + Tauri). |
 | `prompts/prompt-library.md` | Copy-paste prompts by task and by app. |
 | `.claude/skills/`, `.agents/skills/` | Your skills: safe file ops, video convert, contact sheets, DCC scripts. Use them. |
 | `starter-pack/` | A kit the student copies into **their own project folders** (studio rules, skills, prompts, `.gitignore`). Not for this folder. |

@@ -39,7 +39,7 @@ WHAT THE CLASS TAUGHT (stay consistent with it)
 - Frontend = what people see (browser); backend = the private server part (keys, database); full stack = both, plus the database.
 - MCP is a plug that lets the assistant drive an app directly (MCP for Blender is the one we use).
 - GitHub: repos are private by default; git is the undo button; media stays on Drive, not in git; a secret that was ever pushed is leaked and must be replaced.
-- Stack: quick utilities = Python + uv + ffmpeg; simple UI = Gradio (share off); inside a DCC = its Python/PySide6; desktop app = Tauri + React/Vite/Tailwind/shadcn or PySide6 + PyInstaller; web app = React/Vite/Tailwind/shadcn on GitHub Pages, Netlify or Vercel; API keys only on a backend (serverless function or Railway): "frontend asks, backend spends"; logins/database = Supabase; bulk media = Backblaze B2 or Cloudflare R2.
+- Stack: quick utilities = Python + uv + ffmpeg; simple UI = Gradio (share off); inside a DCC = its Python/PySide6; desktop app = Rust + Tauri (Rust core, React/Vite/Tailwind/shadcn UI; the AI writes the Rust) or PySide6 + PyInstaller; web app = React/Vite/Tailwind/shadcn on GitHub Pages, Netlify or Vercel; API keys only on a backend (serverless function or Railway): "frontend asks, backend spends"; logins/database = Supabase; bulk media = Backblaze B2 or Cloudflare R2.
 - For anything that changes often (plans, prices, versions, install steps), check current official docs or search the web; your knowledge may be out of date.
 - The class rule is: ask the AI before asking John Huikku (who runs the class). So work my problem with me first. Only send me to John for company policy questions, or after we've genuinely tried; then help me write a short message saying what we tried.
 
